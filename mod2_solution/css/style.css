@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('food.jpg');
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+h1{
+    text-align: center;
+    color: tomato;
+    
+}
+.menu-tag{
+  border-left: 3px solid burlywood;
+  border-bottom: 3px solid burlywood;
+  color : tomato;
+  width: 20%;
+  text-align: center;
+  margin-left:auto;
+  font-size: 100%;
+}
+.menu-content{
+  text-align: justify;
+  padding: 0% 5% 5% 5%;
+}
+
+/****Large devices****/
+@media (min-width: 992px) {
+  .col-lg{
+      float: left;
+      border: 3px solid burlywood;
+      background-color: darkolivegreen;
+      width:30%;
+       }
+  #chicken-menu{
+      margin-left: 2.5%;
+      }
+  #beef-menu{
+      margin: 0% 2.5% 0% 2.5%;
+      }
+  #sushi-menu{
+      margin-right: 2.5%;
+      }
+  }
+  
+  /**** Medium devices only ****/
+  @media (min-width: 768px) and (max-width: 991px) {
+   .col-md{
+      float: left;
+      border: 3px solid burlywood;
+      background-color: darkolivegreen;
+      width:45%;
+    }
+    #chicken-menu{
+      margin-left: 3.33%;
+    }
+    #beef-menu{
+      margin: 0% 3.33% 0% 3.33%;
+    }
+    #sushi-menu{
+      width: 93.34%;
+      margin: 3.33% 3.33% 0% 3.33%;
+    }
+   }
+ 
+   /****Small devices only****/
+  @media(max-width: 767px) {
+   .col-sd {
+      float: left;
+      border: 3px solid burlywood;
+      background-color: darkolivegreen;
+      width:90%;
+      margin: 5%;
+    }
+  }
+  
